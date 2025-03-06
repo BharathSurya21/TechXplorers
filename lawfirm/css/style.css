@@ -124,8 +124,8 @@ img {
 }
 /*------------ HEADER ------------*/
 #header {
-	background: #4e5944 url(../images/bg-header.jpg) repeat-x left bottom;
-	padding: 40px 0 46px;
+	background:#0f75b1 repeat-x left bottom;
+	padding: 10px 0 26px;
 }
 /** logo **/
 .logo {
@@ -136,25 +136,25 @@ img {
 .navigation {
 	float: right;
 	list-style: none;
-	margin: 28px 0 0;
+	margin: 35px 0 0;
 	padding: 0;
 }
 .navigation li {
 	float: left;
-	margin-left: 30px;
+	margin-left: 40px;
 	position: relative;
 }
 .navigation li > a {
 	color: #b8c6ac;
-	font: bold 13px/24px Times, "Times New Roman", serif;
+	font: bold 15px/24px Times, "Times New Roman", serif;
 	text-decoration: none;
 	text-shadow: 1px 1px #000;
 	text-transform: uppercase;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 .navigation li.active > a, .navigation li > a:hover {
 	color: #fff;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 .navigation li > div {
 	background-color: #888888;
@@ -169,16 +169,16 @@ img {
 }
 .navigation li > div a {
 	color: #b8c6ac;
-	font: bold 13px/24px "Times New Roman", Times, serif;
+	font: bold 15px/24px "Times New Roman", Times, serif;
 	display: block;
 	text-align: center;
 	text-decoration: none;
 	text-shadow: none;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 .navigation li > div a:hover {
 	color: #fff;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 /*------------ CONTENTS ------------*/
 #contents {
@@ -192,28 +192,28 @@ img {
 	border: 1px solid rgba(231, 231, 231, 0.8);
 }
 h1 {
-	color: #57614e;
+	color: #5687a4;
 	font: 29px/30px "Times New Roman", Times, serif;
 	margin: 0 0 12px;
 	text-transform: uppercase;
 }
 h2 {
-	color: #626262;
+	color:#5687a4;
 	font: 19px/24px "Times New Roman", Times, serif;
 	letter-spacing: 2px;
 	margin: 0;
 	text-transform: uppercase;
 }
 p {
-	color: #626262;
+	color: #131c21;
 	font: 14px/24px Arial, Helvetica, sans-serif;
 	margin: 0 0 24px;
 }
 p a {
-	color: #626262;
+	color: #5687a4;
 }
 p a:hover {
-	color: #333333;
+	color: #5687a4;
 }
 /** Adbox **/
 #adbox {
@@ -242,7 +242,7 @@ p a:hover {
 	top: 90px;
 }
 #adbox .detail h1 {
-	color: #4e5944;
+	color: #5687a4;
 	font-size: 30px;
 	font-weight: normal;
 	line-height: 48px;
@@ -268,7 +268,7 @@ p a:hover {
 	text-transform: none;
 }
 .highlight h2 {
-	color: #57614e;
+	color:#5687a4;
 	margin-bottom: 24px;
 }
 .testimonial, .main, .sidebar > div h2, .sidebar ul li, .main > .section {
@@ -292,7 +292,7 @@ p a:hover {
 	padding: 30px 0;
 }
 .featured > h2 {
-	color: #728063;
+	color: #5687a4;
 	width: 940px;
 	margin: 0 auto 24px;
 	padding: 0 10px;
@@ -499,7 +499,7 @@ p a:hover {
 	color: #755c02;
 }
 .news > li h2, .details h2 {
-	color: #728063;
+	color: #5687a4;
 	letter-spacing: 0;
 	margin-bottom: 24px;
 }
@@ -558,7 +558,7 @@ p a:hover {
 	padding: 30px;
 }
 #footer .section h4 {
-	color: #626262;
+	color: #5687a4;
 	font: bold 12px/24px Arial, Helvetica, sans-serif;
 	margin: 0;
 	text-transform: uppercase;
@@ -574,7 +574,7 @@ p a:hover {
 	text-transform: uppercase;
 }
 #footnote {
-	background: url(../images/bg-footnote.jpg) repeat-x left top;
+	background: #0f75b1 repeat-x left top;
 	border-top: 1px solid #fff;
 	padding: 6px 0 3px;
 }

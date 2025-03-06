@@ -136,7 +136,7 @@ img {
 .navigation {
 	float: right;
 	list-style: none;
-	margin: 65px 0 0;
+	margin: 35px 0 0;
 	padding: 0;
 }
 .navigation li {
@@ -592,7 +592,7 @@ p a:hover {
 	text-transform: uppercase;
 }
 #footnote .connect {
-	/* float: left; */
+	float: left;
 	display: inline-block;
 	margin: 0 10px;
 	padding: 6px 0;

@@ -157,18 +157,22 @@ img {
 	/* text-decoration: underline; */
 }
 .navigation li > div {
-	background-color: #888888;
+	background-color: whitesmoke;
+	color: black;
 	display: none;
-	width: 110px;
+	width: 150px;
+	height: 200px;
 	position: absolute;
 	left: 0px;
 	top: 24px;
+	z-index: 101;
 }
 .navigation li:hover > div {
 	display: block;
+	/* width: 30px; */
 }
 .navigation li > div a {
-	color: #b8c6ac;
+	/* color: #b8c6ac; */
 	font: bold 15px/24px "Times New Roman", Times, serif;
 	display: block;
 	text-align: center;

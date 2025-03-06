@@ -466,7 +466,7 @@ p a:hover {
 	padding: 0  0 0 30px;
 }
 .sidebar .contact li p span.home {
-	float: left;
+	/* float: left; */
 	display: inline-block;
 	height: 18px;
 	width: 18px;

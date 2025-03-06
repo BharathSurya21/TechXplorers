@@ -157,7 +157,7 @@ img {
 	/* text-decoration: underline; */
 }
 .navigation li > div {
-	background-color: #dadfe2;
+	background-color: whitesmoke;
 	border-radius: 8px;
 	display: none;
 	width: 190px;
@@ -592,7 +592,7 @@ p a:hover {
 	text-transform: uppercase;
 }
 #footnote .connect {
-	float: left;
+	/* float: left; */
 	display: inline-block;
 	margin: 0 10px;
 	padding: 6px 0;

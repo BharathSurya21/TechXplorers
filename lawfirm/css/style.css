@@ -146,7 +146,8 @@ img {
 }
 .navigation li > a {
 	color: #d5d8d2;
-	font: bold 15px/24px Times, "Times New Roman", serif;
+	/* font: bold 15px/24px Times, "Times New Roman", serif; */
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-decoration: none;
 	text-shadow: 1px 1px #000;
 	text-transform: uppercase;

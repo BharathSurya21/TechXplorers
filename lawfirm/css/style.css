@@ -125,7 +125,7 @@ img {
 /*------------ HEADER ------------*/
 #header {
 	background:#0f75b1 repeat-x left bottom;
-	padding: 10px 0 26px;
+	padding:0;
 }
 /** logo **/
 .logo {
@@ -136,7 +136,7 @@ img {
 .navigation {
 	float: right;
 	list-style: none;
-	margin: 35px 0 0;
+	margin: 65px 0 0;
 	padding: 0;
 }
 .navigation li {
@@ -145,7 +145,7 @@ img {
 	position: relative;
 }
 .navigation li > a {
-	color: #b8c6ac;
+	color: #d5d8d2;
 	font: bold 15px/24px Times, "Times New Roman", serif;
 	text-decoration: none;
 	text-shadow: 1px 1px #000;
@@ -157,27 +157,31 @@ img {
 	/* text-decoration: underline; */
 }
 .navigation li > div {
-	background-color: #888888;
+	background-color: #dadfe2;
+	border-radius: 8px;
 	display: none;
-	width: 110px;
+	width: 190px;
 	position: absolute;
 	left: 0px;
 	top: 24px;
+	z-index: 101;
 }
+
 .navigation li:hover > div {
 	display: block;
 }
 .navigation li > div a {
-	color: #b8c6ac;
-	font: bold 15px/24px "Times New Roman", Times, serif;
+	color: #272525;
+	font: 15px/32px "Times New Roman", Times, serif;
 	display: block;
+	margin-top: 10px;
 	text-align: center;
 	text-decoration: none;
 	text-shadow: none;
 	/* text-decoration: underline; */
 }
 .navigation li > div a:hover {
-	color: #fff;
+	color: #0f75b1;
 	/* text-decoration: underline; */
 }
 /*------------ CONTENTS ------------*/
@@ -392,7 +396,7 @@ p a:hover {
 	position: absolute;
 	bottom: 21px;
 	left: 8px;
-	*left: 6px;
+	left: 6px;
 }
 .practices li a:hover span {
 	background-color: #393939;
